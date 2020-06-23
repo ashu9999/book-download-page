@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./images/icon.png" type="image/icon type">
+        <script src="https://use.fontawesome.com/ebdde96db9.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <title>FriendsCampus</title>
+
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <div class="navi">
+            <nav class="navbar navbar-expand-lg navbar-dark py-4">
+                <a class="navbar-brand" href='#'><img src='./images/logo.jpg' width="277" height="100" alt="FriendsCampus Logo" title="FriendsCampus"/></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto topnav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Find Tutor
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <p class="nav-link dropdown-toggle " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                For Students
+                            </p>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Study Material</a>
+                                <a class="dropdown-item" href="#">FriendsCampus students app</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <p class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                For Tutor and Institute
+                            </p>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Create a profile</a>
+                                <a class="dropdown-item" href="#">Become a Tutor</a>
+                                <a class="dropdown-item" href="#">Join tutor group</a>
+                                <a class="dropdown-item" href="#">Friends Campus Pro App</a>
+                                <a class="dropdown-item" href="#">Get your classes app</a>
+                                <a class="dropdown-item" href="#">Get your classes website</a>
+                                
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <p class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                More
+                            </p>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Boards</a>
+                                <a class="dropdown-item" href="#">Classes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn text-dark" style="background-color: #DFCA1C;" type="button" href="#" data-toggle="modal" data-target="#myModal">Tutor join us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div
+                            class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">
+                                    Sign In</h4>
+                                <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <form>
+                                    <label class="sr-only" for="usrname">Username</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <i class="fa fa-user"></i>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+
+
+                                    <label class="sr-only" for="Password">Name</label>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon2">
+                                                <i class="fa fa-key"></i>
+                                            </span>
+                                        </div>
+                                        <input id="Password" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-dark text-dark" style="background-color: #DFCA1C;">Tutor join us</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </nav>
+        </div>
+       
+        <!-- search bar -->
+        <div class="d-flex justify-content-center py-5 mx-auto search-bgc ">
+                <div class="row mx-auto" >
+                  <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                    <select class="custom-select" id="inlineFormCustomSelect">
+                      <option selected>Class</option>
+                      <option value="1">5</option>
+                      <option value="2">8</option>
+                      <option value="3">10</option>
+                      <option value="3">12</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                    <select class="custom-select" id="inlineFormCustomSelect">
+                      <option selected>Subject</option>
+                      <option value="1">Science</option>
+                      <option value="2">History</option>
+                      <option value="3">English</option>
+                      <option value="3">Mathematics</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12  mx-auto des">
+                    <select class="custom-select" id="inlineFormCustomSelect">
+                      <option selected>Board</option>
+                      <option value="1">CBSE</option>
+                      <option value="2">ISC</option>
+                      <option value="3">Maharastra</option>
+                      <option value="3">U.P.</option>
+                    </select>
+                  </div>
+                  <div class=" col-md-3 col-sm-6 col-xs-12 mx-auto des">
+                    <button type="submit" class="btn btn-dark btn-block">Search</button>
+                  </div>
+                </div>
+        </div>
+
+         
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Content Column -->
+                <div class="col-lg-8">
+                    <!-- Title -->
+                    <h1 class="mt-4">Class 5</h1>
+                    <hr class="my-8">
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                       <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                          <div class="card-body d-flex flex-column align-items-start">
+                             <strong class="d-inline-block mb-2 text-primary">Workbook</strong>
+                             <h6 class="mb-0">
+                                <a class="text-dark" href="#">Marathi Sulabhbharati Workbook</a>
+                             </h6>
+                             <div class="mb-1 text-muted small">Nov 12</div>
+                             <p class="card-text mb-auto">Std 5 Perfect Marathi Sulabhbharati Workbook | English Medium ...</p>
+                             <div class="row d-flex ">
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Download</a>
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Preview</a>
+                             </div>                          
+                            </div>
+                          <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="/images/1.jpeg" style="width: 200px; height: 270px;">
+                       </div>
+                    </div>
+                    <div class="col-md-6">
+                       <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                          <div class="card-body d-flex flex-column align-items-start">
+                             <strong class="d-inline-block mb-2 text-primary">Mathematics</strong>
+                             <h6 class="mb-0">
+                                <a class="text-dark" href="#">Mathematics (English 5th Std Maharashtra Board)</a>
+                             </h6>
+                             <div class="mb-1 text-muted small">Nov 11</div>
+                             <p class="card-text mb-auto"> Mathematics (English 5th Std Maharashtra Board)</p>
+                             <div class="row d-flex ">
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Download</a>
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Preview</a>
+                             </div>
+                          </div>
+                          <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="/images/3.jpeg" style="width: 200px; height: 270px;">
+                       </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                           <div class="card-body d-flex flex-column align-items-start">
+                              <strong class="d-inline-block mb-2 text-primary">English Balbharti</strong>
+                              <h6 class="mb-0">
+                                 <a class="text-dark" href="#">English Balbharti</a>
+                              </h6>
+                              <div class="mb-1 text-muted small">Nov 12</div>
+                              <p class="card-text mb-auto">Std 5 Perfect Notes English Balbharati Book | English Medium ...</p>
+                              <div class="row d-flex ">
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Download</a>
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Preview</a>
+                             </div>                           
+                            </div>
+                           <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="/images/2.jpeg" style="width: 200px; height: 270px;">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                           <div class="card-body d-flex flex-column align-items-start">
+                              <strong class="d-inline-block mb-2 text-primary">Margdarshika</strong>
+                              <h6 class="mb-0">
+                                 <a class="text-dark" href="#">इ . 5 पूर्व उच्च प्राथमिक शिष्यवृत्ती ...</a>
+                              </h6>
+                              <div class="mb-1 text-muted small">Nov 12</div>
+                              <p class="card-text mb-auto">Std 5 Perfect Marathi Margdarshika | Medium ...</p>
+                              <div class="row d-flex ">
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Download</a>
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Preview</a>
+                             </div>                           
+                            </div>
+                           <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="/images/4.jpeg" style="width: 200px; height: 270px;">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                           <div class="card-body d-flex flex-column align-items-start">
+                              <strong class="d-inline-block mb-2 text-primary">Mathematics</strong>
+                              <h6 class="mb-0">
+                                 <a class="text-dark" href="#">Mathematics (English 5th Std Maharashtra Board)</a>
+                              </h6>
+                              <div class="mb-1 text-muted small">Nov 11</div>
+                              <p class="card-text mb-auto"> Mathematics (English 5th Std Maharashtra Board)</p>
+                              <div class="row d-flex ">
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Download</a>
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Preview</a>
+                             </div>                           
+                            </div>
+                           <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="/images/3.jpeg" style="width: 200px; height: 270px;">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                         <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                            <div class="card-body d-flex flex-column align-items-start">
+                               <strong class="d-inline-block mb-2 text-primary">English Balbharti</strong>
+                               <h6 class="mb-0">
+                                  <a class="text-dark" href="#">English Balbharti</a>
+                               </h6>
+                               <div class="mb-1 text-muted small">Nov 12</div>
+                               <p class="card-text mb-auto">Std 5 Perfect Notes English Balbharati Book | English Medium ...</p>
+                               <div class="row d-flex ">
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Download</a>
+                                <a class="btn btn-outline-warning text-dark btn-sm mx-2" href="#">Preview</a>
+                             </div>                            
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="/images/2.jpeg" style="width: 200px; height: 270px;">
+                         </div>
+                      </div>
+                 </div>
+        </div>
+        <b><hr class="my-8"></b>
+    </div>
+    
+
+            <!-- Comments Form -->
+        <div class="container commnt">
+            <h2 class="text-center py-5"><b>Have a Doubt??</b></h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 pb-5">
+                    <form action="#" method="#">
+                        <div class="card rounded-0">
+                            <div class="card-header p-0">
+                                <div class="text-inverse text-center py-2" style="background-color: rgb(192, 180, 44);">
+                                    <h3><i class="fa fa-question-circle "></i> ASK US..</h3>
+                                </div>
+                            </div>
+                            <div class="card-body p-3">
+                                <!--Body-->
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-user text-inverse"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name" required="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope text-inverse"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required="true">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-comment text-inverse"></i></div>
+                                        </div>
+                                        <textarea class="form-control" placeholder="write here.." required="true"></textarea>
+                                        </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <input type="submit" value="Submit" class="btn btn-block rounded-0 py-2" style="background-color:rgb(190, 177, 34);">
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                    <!--Form with header-->
+                </div>
+                    <div class="d-flex col-md-5 justify-content-center m-auto mb-4 p-auto">
+                            <img src="images/3713117.jpg" width="96%" height="100%"  alt="Have a doubt">
+                    </div>
+            </div>
+        </div>
+        
+    
+    <!-- Footer -->
+	<section id="footer">
+		<div class="p-4 text-white">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4 ">
+					<h2 class="mb-4">FriendsCampus</h2>
+					<p >FriendsCampus is an Education Platform where students come to find solutions to their doubts, 
+                        find a personal tutor or even search for Institutes who can help them perform better in exams.
+                    </p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h2 class="mb-4" >For Tutors & Institutes</h2>
+					<ul class="list-unstyled quick-links">
+						<li><a href="#">Create Free Profile</a></li>
+						<li><a href="#">Become a Partner</a></li>
+						<li><a href="#">Download pro APP</a></li>
+                    </ul>
+                    
+					<h2 class="mb-4" >Link</h2>
+					<ul class="list-unstyled quick-links">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of Service</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h2 class="mb-4" >Contact</h2>
+					<ul class="list-unstyled quick-links">
+                        <p class=""><b>Address</b></br>
+                        503D, Fortune Square, Bldg. No 11, Near Trade Center US Embasy, BKC, Bandra(E), Mumbai: 400051</p>    
+                    </ul>
+                    <p class="mb-4"><b>Phone</b></br>
+                    <a class="" style="color:rgb(233, 215, 29)" href="#">+91 7977 0595 11</a></p>
+                    </ul>
+                    <p class="mb-4"><b>Email</b></br>
+                    <a class="" style="color:rgb(233, 215, 29)" href="#">team@friendscampus.com</a></p>
+                    </ul>
+				</div>
+			</div>				
+        </div>
+        
+    </section>
+    
+    <div class="footer" >
+        <div class="row" >
+            <div class="col-md-12 text-right" >
+            <div style="color: rgb(0, 0, 0); background-color:rgb(233, 215, 29); font-size: 12px; padding:30px;" >© 2020 Copyright:
+            <a style="color: black;" href="#"><b>FriendsCampus</b></a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script>
+        $(function(){
+
+        $('#show').on('click',function(){        
+            $('.card-reveal').slideToggle('slow');
+        });
+
+        $('.card-reveal .close').on('click',function(){
+            $('.card-reveal').slideToggle('slow');
+        });
+        });
+    </script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

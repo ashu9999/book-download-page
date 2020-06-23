@@ -1,0 +1,126 @@
+body,html{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    
+   }
+   .navi{
+    background-color: #080727;
+
+   }
+   .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  
+
+   hr{
+       background-color: black;
+   }
+   .search-bgc{background: rgb(8,7,39);
+    background: linear-gradient(180deg, rgba(8,7,39,1) 0%, rgba(223,202,28,1) 59%, rgba(255,255,255,1) 100%);}
+   div.des{
+    
+    font-family: proxima,sans-serif;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 14px;
+    width:250px;
+   }
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #2e4066;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+.commnt{
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+    
+    /*  Footer  */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    margin: 0;
+    padding: 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #080727;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+#footer {
+    display: block;
+    color: #fff;
+    background: #080727;
+    float: left;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family:proxima, sans-serif, sans-serif;
+    
+}
+#footer h2{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none ;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0.3px;
+
+}
