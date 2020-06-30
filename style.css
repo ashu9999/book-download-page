@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body,html{
     overflow-x: hidden;
     height: 100%;
@@ -5,7 +7,7 @@ body,html{
     margin: 0;
     padding: 0;
     background-size: cover;
-    font-family: "Roboto", Sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     
    }
@@ -22,15 +24,22 @@ body,html{
       pointer-events: none;
   }
   
-
+  .fs{
+      font-size: 16px;
+  }
+  .fss{
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 400;
+  }
    hr{
        background-color: black;
    }
-   .search-bgc{background: rgb(8,7,39);
-    background: linear-gradient(180deg, rgba(8,7,39,1) 0%, rgba(223,202,28,1) 59%, rgba(255,255,255,1) 100%);}
-   div.des{
-    
-    font-family: proxima,sans-serif;
+   .search-bgc{
+    background-color: #080727;
+   }
+
+div.des{
     border-radius: 4px;
     padding: 10px 10px;
     font-size: 14px;
@@ -68,11 +77,16 @@ body,html{
     color:white;
     text-decoration:none;
     }
-.commnt{
-    font-family: "Poppins", Sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-}
+    #search-button{
+        background-color: #DFCA1C;
+        border: 2px solid  #DFCA1C;
+        border-radius: 2px;
+    }
+
+    #search-button:hover{
+        background-color: #080727;
+        color: white;
+    }
     
     /*  Footer  */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -97,9 +111,7 @@ section .section-title {
     font-size: 14px;
     padding-top: 30px;
     padding-right: 60px;
-    padding-left: 60px;
-    font-family:proxima, sans-serif, sans-serif;
-    
+    padding-left: 60px;    
 }
 #footer h2{
     color: #FFFFFF;
@@ -138,4 +150,38 @@ section .section-title {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* form */
+#hed{
+    background-color: #080727;
+    font-family: "Poppins", Sans-serif;
+    font-weight: bold;
+}
+#commnt{
+    margin-top: 40px;
+    width: 100;
+}
+
+#commnt a{
+    color: rgb(43, 34, 34);
+    text-decoration: none;
+  }
+#commnt input{
+    border: 2px solid #354980;
+  }
+#sub-button{
+    background-color: #ffffff;
+    border: 2px solid   #354980;
+    border-radius: 2px;
+    color: black;
+    font-size: 16px;
+    white-space: normal;
+    text-align: center;
+}
+
+#sub-button:hover{
+    background-color: rgba(246, 239, 200, 0.74);
+    border: 2px solid #DFCA1C;
+    color: black;
 }
