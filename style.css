@@ -26,7 +26,9 @@ body,html{
   
   .fs{
       font-size: 16px;
+      white-space: normal
   }
+  
   .fss{
       font-size: 14px;
       text-decoration: none;
@@ -153,35 +155,3 @@ section .section-title {
 }
 
 /* form */
-#hed{
-    background-color: #080727;
-    font-family: "Poppins", Sans-serif;
-    font-weight: bold;
-}
-#commnt{
-    margin-top: 40px;
-    width: 100;
-}
-
-#commnt a{
-    color: rgb(43, 34, 34);
-    text-decoration: none;
-  }
-#commnt input{
-    border: 2px solid #354980;
-  }
-#sub-button{
-    background-color: #ffffff;
-    border: 2px solid   #354980;
-    border-radius: 2px;
-    color: black;
-    font-size: 16px;
-    white-space: normal;
-    text-align: center;
-}
-
-#sub-button:hover{
-    background-color: rgba(246, 239, 200, 0.74);
-    border: 2px solid #DFCA1C;
-    color: black;
-}
